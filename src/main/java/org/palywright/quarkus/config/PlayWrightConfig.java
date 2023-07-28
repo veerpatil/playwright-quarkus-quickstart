@@ -25,10 +25,10 @@ public class PlayWrightConfig {
                 browserInstance = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(true));
                 break;
             case "firefox":
-                browserInstance = playwright.firefox().launch(new BrowserType.LaunchOptions().setHeadless(false));
+                browserInstance = playwright.firefox().launch(new BrowserType.LaunchOptions().setHeadless(true));
                 break;
             case "webkit":
-                browserInstance = playwright.webkit().launch(new BrowserType.LaunchOptions().setHeadless(false));
+                browserInstance = playwright.webkit().launch(new BrowserType.LaunchOptions().setHeadless(true));
                 break;
         }
         return browserInstance;
