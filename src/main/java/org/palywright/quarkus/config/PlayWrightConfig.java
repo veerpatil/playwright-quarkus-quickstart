@@ -22,7 +22,7 @@ public class PlayWrightConfig {
         Browser browserInstance = null;
         switch (browser) {
             case "chrome":
-                browserInstance = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
+                browserInstance = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(true));
                 break;
             case "firefox":
                 browserInstance = playwright.firefox().launch(new BrowserType.LaunchOptions().setHeadless(false));
