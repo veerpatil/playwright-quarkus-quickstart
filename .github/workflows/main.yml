@@ -1,4 +1,4 @@
-ame: Create issue on Merge to Master and Add Label on MR
+name: Run Tests and Publish report to github pages
 on:
   push:
 jobs:
