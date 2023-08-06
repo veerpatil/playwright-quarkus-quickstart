@@ -17,6 +17,7 @@ public class LoginPage extends Base {
     private static final String logOut="//a[normalize-space()='Logout']";
     @ConfigProperty(name = "baseUrl")
     private String URL;
+
     public void goTo()
     {
         this.page.navigate(URL);
