@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Aug 06 14:26:08 GMT 2023","Sun Aug 06 14:26:22 GMT 2023","14548","","org.palywright.quarkus.InvalidLoginPageTest","","org.palywright.quarkus.InvalidLoginPageTest","LoginInvalidTest","LoginInvalidTest()","Invalid Login Test with Invalid Username and Invalid Password."
+"passed","Sun Aug 06 14:26:22 GMT 2023","Sun Aug 06 14:26:24 GMT 2023","1944","","org.palywright.quarkus.LoginPageTest","","org.palywright.quarkus.LoginPageTest","LoginAdminTest","LoginAdminTest()","Invalid Login Test with valid Username and valid Password."
